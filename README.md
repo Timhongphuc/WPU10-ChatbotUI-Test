@@ -1,25 +1,38 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+# WPU10-ChatbotUI-Test
+A Chatbot I made for my Mathemathics course at school because I was bored in the evening
+<img width="3440" height="1330" alt="Bildschirmfoto 2025-11-28 um 19 30 14" src="https://github.com/user-attachments/assets/19225c6d-40b6-4ac8-84f1-f0f92dbfb074" />
 
-## Getting Started
+### The current LLM used: moonshotai/kimi-k2-instruct
+---
 
-First, add your OpenAI API key to `.env.local` file:
+## Important information
 
+- This project is not affiliated with AgentBaseAI Inc. or the Andreas Gymnasium Berlin
+- Credits für the UI goes to [AssistantUI](https://github.com/assistant-ui/assistant-ui) by [AgentBaseAI Inc.](https://www.assistant-ui.com/)
+- I've built this project for my personal use only
+
+### Copyright notice AssistantUI
+
+```text
+MIT License
+
+Copyright (c) 2025 AgentbaseAI Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
