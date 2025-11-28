@@ -10,6 +10,7 @@ A Chatbot I made for my Mathemathics course at school because I was bored in the
 - This project is not affiliated with AgentBaseAI Inc. or the Andreas Gymnasium Berlin
 - Credits für the UI goes to [AssistantUI](https://github.com/assistant-ui/assistant-ui) by [AgentBaseAI Inc.](https://www.assistant-ui.com/)
 - I've built this project for my personal use only
+- This application is mostly based on the AssistantUI open source project
 
 ### Copyright notice AssistantUI
 
