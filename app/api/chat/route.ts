@@ -1,25 +1,20 @@
-import { openai } from "@ai-sdk/openai";
-import {
-  streamText,
-  convertToModelMessages,
-  type UIMessage,
-} from "ai";
+import { createOpenAI } from "@ai-sdk/openai";
+import { convertToModelMessages, streamText } from "ai";
+
+export const maxDuration = 30;
+
+const groq = createOpenAI({
+  apiKey: process.env.GROQ_API_KEY ?? "",
+  baseURL: "https://api.groq.com/openai/v1",
+});
 
 export async function POST(req: Request) {
-  const { messages }: { messages: UIMessage[] } = await req.json();
-
+  const { messages } = await req.json();
   const result = streamText({
-    model: openai.responses("gpt-5-nano"),
+    model: groq("moonshotai/kimi-k2-instruct"),
+    // Einfachste Methode: Globalen System-Prompt aus ENV anhängen
+    system: process.env.SYSTEM_PROMPT ?? "",
     messages: convertToModelMessages(messages),
-    providerOptions: {
-      openai: {
-        reasoningEffort: "low",
-        reasoningSummary: "auto",
-      },
-    },
   });
-
-  return result.toUIMessageStreamResponse({
-    sendReasoning: true,
-  });
+  return result.toUIMessageStreamResponse();
 }

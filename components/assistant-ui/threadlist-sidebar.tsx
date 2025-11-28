@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Github, MessagesSquare } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Sidebar,
   SidebarContent,
@@ -24,16 +25,20 @@ export function ThreadListSidebar({
             <SidebarMenuItem>
               <SidebarMenuButton size="lg" asChild>
                 <Link
-                  href="https://assistant-ui.com"
+                  href="https://timhongphuc.de"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="aui-sidebar-header-icon-wrapper flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-                    <MessagesSquare className="aui-sidebar-header-icon size-4" />
+                    <img 
+                      src="https://aqua-cheerful-octopus-393.mypinata.cloud/ipfs/bafkreihei556yi665dgtleb7zuihqn7zu7xszeimessgueetrjdmfriw5e"
+                      alt="Chat Icon"
+                      className="aui-sidebar-header-icon size-8"
+                    />
                   </div>
                   <div className="aui-sidebar-header-heading mr-6 flex flex-col gap-0.5 leading-none">
                     <span className="aui-sidebar-header-title font-semibold">
-                      assistant-ui
+                      WPU10 AI
                     </span>
                   </div>
                 </Link>
