@@ -1,5 +1,6 @@
 # WPU10-ChatbotUI-Test
 A Chatbot I made for my Mathemathics course at school because I was bored in the evening
+<img width="3440" height="1327" alt="Bildschirmfoto 2025-11-28 um 18 53 16" src="https://github.com/user-attachments/assets/37b34812-3732-4987-8bf2-3fd48a44d226" />
 
 ---
 
