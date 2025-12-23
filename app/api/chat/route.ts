@@ -11,7 +11,7 @@ const groq = createOpenAI({
 export async function POST(req: Request) {
   const { messages } = await req.json();
   const result = streamText({
-    model: groq("moonshotai/kimi-k2-instruct"),
+    model: groq("meta-llama/llama-4-scout-17b-16e-instruct"),
     // Einfachste Methode: Globalen System-Prompt aus ENV anhängen
     system: process.env.SYSTEM_PROMPT ?? "",
     messages: convertToModelMessages(messages),
