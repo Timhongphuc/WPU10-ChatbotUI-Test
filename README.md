@@ -2,7 +2,7 @@
 A Chatbot I made for my Mathemathics course at school because I was bored in the evening
 <img width="3440" height="1330" alt="Bildschirmfoto 2025-11-28 um 19 30 14" src="https://github.com/user-attachments/assets/19225c6d-40b6-4ac8-84f1-f0f92dbfb074" />
 
-### The current LLM used: moonshotai/kimi-k2-instruct
+### The current LLM used: meta-llama/llama-4-scout-17b-16e-instruct (With image processing)
 ---
 
 ## Important information
